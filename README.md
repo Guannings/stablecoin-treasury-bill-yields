@@ -4,16 +4,15 @@ Does dollar-pegged stablecoin issuance push down short-term U.S. Treasury yields
 
 ## TL;DR
 
-| Specification | Term | Estimate (bp) | SE | t | p |
+| Specification | Term | Estimate (bp) | HAC SE | t | p |
 |---|---|---:|---:|---:|---:|
-| Baseline OLS | LagDSC (avg effect) | −0.047 | 0.159 | −0.30 | 0.768 |
-| Baseline OLS | LagDSC × SCAR (interaction) | −0.228 | 1.087 | −0.21 | 0.835 |
-| HAC, VIX in levels | LagDSC × SCAR | −0.228 | 1.283 | −0.18 | 0.860 |
-| **HAC, VIX in changes** | **LagDSC × SCAR** | **−2.375** | **1.255** | **−1.89** | **0.063** |
-| HAC, VIX in changes | SCAR (level shift) | +17.00 | 6.011 | +2.83 | 0.006 |
-| All specs | DFF (fed-funds passthrough) | +0.44 to +0.92 | — | 4.2 to 9.4 | <.0001 |
+| Baseline (VIX in levels) | LagDSC (avg effect) | −0.047 | 0.071 | −0.66 | 0.510 |
+| Baseline (VIX in levels) | LagDSC × SCAR (interaction) | −0.228 | 1.283 | −0.18 | 0.860 |
+| **Preferred (VIX in changes)** | **LagDSC × SCAR** | **−2.375** | **1.255** | **−1.89** | **0.063** |
+| Preferred (VIX in changes) | SCAR (level shift) | +17.00 | 6.011 | +2.83 | 0.006 |
+| Both specs | DFF (fed-funds passthrough) | +0.44 to +0.92 | — | 4.2 to 6.7 | <.0001 |
 
-Joint test that stablecoins have no effect (baseline): *F*(2,67) = 0.07, *p* = 0.93 — not rejected. Baseline *R*² = 0.77. The only robust regressor across every specification is the contemporaneous change in the fed-funds rate, which is exactly what front-end yield theory predicts.
+Joint test that stablecoins have no effect (baseline): *F*(2,67) = 0.07, *p* = 0.93 — not rejected. Baseline adj. *R*² = 0.749. The only robust regressor across every specification is the contemporaneous change in the fed-funds rate, which is exactly what front-end yield theory predicts.
 
 ## What the result means
 
@@ -120,21 +119,21 @@ and the total conditional effect during scarcity months is β₁ + β₃. Standa
 
 ## Results
 
-### Baseline OLS (classical SE), N = 74, R² = 0.770
+### Baseline regression — Newey–West HAC SE, N = 74, adj. R² = 0.749
 
-| Variable | Estimate | SE | t | p |
+| Variable | Estimate | HAC SE | t | p |
 |---|---:|---:|---:|---:|
-| Intercept | 1.953 | 7.880 | 0.25 | 0.805 |
-| LagDSC | −0.047 | 0.159 | −0.30 | 0.768 |
-| SCAR | −1.655 | 5.520 | −0.30 | 0.765 |
-| LagDSC × SCAR | −0.228 | 1.087 | −0.21 | 0.835 |
-| DFF | 0.920 | 0.098 | 9.39 | <.0001 |
-| VIX (level) | −0.005 | 0.317 | −0.02 | 0.988 |
-| POST_UST | −1.471 | 4.027 | −0.37 | 0.716 |
+| Intercept | 1.953 | 5.002 | 0.39 | 0.698 |
+| LagDSC | −0.047 | 0.071 | −0.66 | 0.510 |
+| SCAR | −1.655 | 7.364 | −0.22 | 0.823 |
+| LagDSC × SCAR | −0.228 | 1.283 | −0.18 | 0.860 |
+| DFF | 0.920\*\*\* | 0.136 | 6.74 | <.0001 |
+| VIX (level) | −0.005 | 0.230 | −0.02 | 0.984 |
+| POST_UST | −1.471 | 2.514 | −0.59 | 0.560 |
 
-Joint tests: no stablecoin effect *F*(2,67)=0.07, *p*=0.93; no interaction *F*(1,67)=0.04, *p*=0.83; total scarcity effect β₁+β₃=0 not rejected, *F*(1,67)=0.06, *p*=0.80. Signs are as predicted on both stablecoin terms; none is individually or jointly significant.
+Joint tests: no stablecoin effect *F*(2,67)=0.07, *p*=0.929; total scarcity effect β₁+β₃=0 not rejected, *F*(1,67)=0.06, *p*=0.800. Signs are as predicted on both stablecoin terms; none is individually or jointly significant.
 
-### Preferred specification — HAC SE, VIX in changes, R² = 0.774
+### Preferred specification — HAC SE, VIX in changes, adj. R² = 0.774
 
 | Variable | Estimate | HAC SE | t | p |
 |---|---:|---:|---:|---:|
