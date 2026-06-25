@@ -44,6 +44,8 @@ python build_data2.py    # rebuild / refresh variant
 
 ## What's in this repo
 
+The full argument — literature, hypotheses, derivations, and the complete table set — lives in `paper/Stablecoin-Issuance-and-US-Treasury-Bill-Yields.pdf` (and the math in `docs/MODEL.md`). That paper is the canonical write-up; this README is the short version and reports the same numbers.
+
 | Path | Purpose |
 |---|---|
 | `paper/Stablecoin-Issuance-and-US-Treasury-Bill-Yields.pdf` | Full writeup: abstract, literature, hypotheses, data, model, results, robustness, conclusion. |
