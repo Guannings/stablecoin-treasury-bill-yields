@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# SAS
+*.log
+*.lst
+*.sas7bdat
+
+# Editor / OS cruft
+*.swp
+.idea/
+.vscode/
+
+# Copyrighted source papers — not redistributed (see references/Stablecoin_refs.ris)
+refs/
+*.pages
+
+# Claude local settings
+.claude/

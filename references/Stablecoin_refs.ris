@@ -1,0 +1,85 @@
+TY  - RPRT
+AU  - Ahmed, Rashad
+AU  - Aldasoro, Iñaki
+TI  - Stablecoins and Safe Asset Prices
+T2  - BIS Working Papers
+VL  - 1270
+PY  - 2025
+DA  - 2025/05/28
+PB  - Bank for International Settlements
+UR  - https://www.bis.org/publ/work1270.htm
+N1  - Daily data 2021–2025; instrumented local-projection regressions. A 2-SD inflow lowers 3-month T-bill yield by 2–2.5 bp within 10 days; asymmetric outflow effects 2–3× larger; USDT > USDC by impact.
+ER  -
+
+TY  - JOUR
+AU  - Ante, Lennart
+AU  - Saggu, Aman
+AU  - Fiedler, Ingo
+TI  - The Stablecoin Discount: Evidence of Tether's U.S. Treasury Bill Market Share in Lowering Yields
+T2  - arXiv preprint
+PY  - 2025
+DA  - 2025/05/18
+UR  - https://arxiv.org/abs/2505.12413
+N1  - arXiv:2505.12413. 1-pp rise in Tether's bill-market share → ~14–16 bp drop in 1-month yield.
+ER  -
+
+TY  - RPRT
+AU  - Jacewitz, Stefan
+TI  - Stablecoins Could Increase Treasury Demand, but Only by Reducing Demand for Other Assets
+T2  - Federal Reserve Bank of Kansas City Economic Bulletin
+PY  - 2025
+DA  - 2025/08/08
+PB  - Federal Reserve Bank of Kansas City
+UR  - https://www.kansascityfed.org/research/economic-bulletin/stablecoins-could-increase-treasury-demand-but-only-by-reducing-demand-for-other-assets/
+N1  - Yield impact 2.5–3.5 bp on average, 5–8 bp during bill scarcity. Reshuffling argument: net Treasury demand smaller than gross stablecoin holdings suggest.
+ER  -
+
+TY  - JOUR
+AU  - Vayanos, Dimitri
+AU  - Vila, Jean-Luc
+TI  - A Preferred-Habitat Model of the Term Structure of Interest Rates
+T2  - Econometrica
+VL  - 89
+IS  - 1
+SP  - 77
+EP  - 112
+PY  - 2021
+DO  - 10.3982/ECTA17440
+N1  - Theoretical foundation for inelastic-demand / preferred-habitat investors moving yields.
+ER  -
+
+TY  - JOUR
+AU  - Greenwood, Robin
+AU  - Vayanos, Dimitri
+TI  - Bond Supply and Excess Bond Returns
+T2  - Review of Financial Studies
+VL  - 27
+IS  - 3
+SP  - 663
+EP  - 713
+PY  - 2014
+DO  - 10.1093/rfs/hht133
+N1  - Empirical predecessor on bond-supply effects.
+ER  -
+
+TY  - BOOK
+AU  - Wooldridge, Jeffrey M.
+TI  - Introductory Econometrics: A Modern Approach
+ET  - 7th
+PY  - 2020
+PB  - Cengage Learning
+N1  - Course textbook; Ch. 6–7 cover dummy variables and interaction terms.
+ER  -
+
+TY  - JOUR
+AU  - Gorton, Gary B.
+AU  - Zhang, Jeffery
+TI  - Taming Wildcat Stablecoins
+T2  - University of Chicago Law Review
+VL  - 90
+IS  - 3
+SP  - 909
+EP  - 971
+PY  - 2023
+N1  - Economic nature of stablecoins as private demand deposits; useful background.
+ER  -
